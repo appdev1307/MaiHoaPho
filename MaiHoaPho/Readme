@@ -1,0 +1,20 @@
+- Apple developer: appdev1307@gmail.com
+- Google AdMob: laptrinhungdung1307@gmail.com
+- Firebase account: laptrinhungdung1307@gmail.com
+- Change mAdmobTest = false before submitting application to Appstore
+- Avoid having invalid traffice due to accidentally loading admob many times
+    We will use the pattern of Creatinging A GADBannerView Singleton in AdMob Applications
+Link: https://ads-developers.googleblog.com/2012/04/creating-gadbannerview-singleton-in.html
+
+-------
+Inmobi integrated -> but no work
+
+-------
+Mopub integration
+--> integation issue help: http://onebigfunction.com/ios/2015/12/31/mopub-mo-problems/
+
+
+Additional setiing
+- It's a bug in WebKit (or the underlying OS itself). And no, it was not fixed in 13.[2,3] release.
+1- From Xcode menu open: Product > Scheme > Edit Scheme
+2- On your Environment Variables set OS_ACTIVITY_MODE = disable
