@@ -10,19 +10,19 @@ import UIKit
 // import GoogleMobileAds
 import AVFoundation
 
-import MoPub
+// import MoPub
 
-class MainGameViewController: UIViewController, MPAdViewDelegate {
+class MainGameViewController: UIViewController {
     @IBOutlet weak var mtoolbar: UIToolbar!
     @IBOutlet weak var uiMaiHoaPho: UIImageView!
     
     // MARK: - MOPUB
-    var mMopubBannerAdView : MPAdView?
+    //var mMopubBannerAdView : MPAdView?
     
-    let mMopubBannerID      = "c00a041766ee43b09e6c5eb697166d7b"
-    let mMopubBannerTestID  = "0ac59b0996d947309c33f59d6676399f"
+    //let mMopubBannerID      = "c00a041766ee43b09e6c5eb697166d7b"
+    //let mMopubBannerTestID  = "0ac59b0996d947309c33f59d6676399f"
     
-    func addMopubBannerToView() {
+    /*func addMopubBannerToView() {
         var topSafeArea: CGFloat
         
         if #available(iOS 11.0, *) {
@@ -70,6 +70,7 @@ class MainGameViewController: UIViewController, MPAdViewDelegate {
     func willLeaveApplication(fromAd view: MPAdView!) {
         NSLog("MOPUB " + #function)
     }
+     */
 
     
     // Mark: - Google Ads mobile
@@ -234,7 +235,7 @@ class MainGameViewController: UIViewController, MPAdViewDelegate {
         // safe area values are now available to use
          
         // Mark: - Mopub
-        addMopubBannerToView()
+        //addMopubBannerToView()
     }
     
     override func viewDidAppear(_ animated: Bool){

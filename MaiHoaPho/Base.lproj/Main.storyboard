@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1b9-0V-eQO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1b9-0V-eQO">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default" translatesAutoresizingMaskIntoConstraints="NO" id="oHg-Hi-nJO">
-                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="bgg-5l-ZU8">
-                                <rect key="frame" x="124" y="254" width="72" height="119"/>
+                                <rect key="frame" x="124.5" y="264" width="71" height="119"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bj-xC-kz2">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bj-xC-kz2">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
                                             <segue destination="smJ-3G-3BI" kind="show" id="m3c-h1-Cfe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qk-WX-LFu">
-                                        <rect key="frame" x="0.0" y="79" width="72" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qk-WX-LFu">
+                                        <rect key="frame" x="0.0" y="79" width="71" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Setting"/>
                                         <connections>
@@ -41,6 +41,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bgg-5l-ZU8" firstAttribute="centerX" secondItem="oHg-Hi-nJO" secondAttribute="centerX" id="HrZ-c1-rkN"/>
@@ -49,7 +50,6 @@
                             <constraint firstItem="oHg-Hi-nJO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ohG-4w-9ba"/>
                             <constraint firstItem="bgg-5l-ZU8" firstAttribute="centerY" secondItem="oHg-Hi-nJO" secondAttribute="centerY" constant="7.5" id="xPo-DR-kZt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mai Hoa Phổ" id="UQ1-yG-ktF"/>
                 </viewController>
@@ -97,15 +97,16 @@
                                 </items>
                             </toolbar>
                             <containerView opaque="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Dfd-cD-4Eq">
-                                <rect key="frame" x="0.0" y="94" width="320" height="430"/>
+                                <rect key="frame" x="0.0" y="114" width="320" height="410"/>
                                 <connections>
                                     <segue destination="Ygz-Wc-uDG" kind="embed" identifier="showGameBoard" id="CwO-Yy-GXy"/>
                                 </connections>
                             </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MaiHoaPho" translatesAutoresizingMaskIntoConstraints="NO" id="gnE-9J-GVo">
-                                <rect key="frame" x="0.0" y="44" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="50"/>
                             </imageView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="pOv-ti-vhj"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dfd-cD-4Eq" firstAttribute="top" secondItem="gnE-9J-GVo" secondAttribute="bottom" id="0H9-7u-8n8"/>
@@ -120,7 +121,6 @@
                             <constraint firstItem="i0f-VJ-obh" firstAttribute="trailing" secondItem="pOv-ti-vhj" secondAttribute="trailing" id="q7L-4l-eSn"/>
                             <constraint firstItem="pOv-ti-vhj" firstAttribute="bottom" secondItem="i0f-VJ-obh" secondAttribute="bottom" id="qTU-pU-jzJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pOv-ti-vhj"/>
                     </view>
                     <connections>
                         <outlet property="mtoolbar" destination="i0f-VJ-obh" id="nt5-gs-xNJ"/>
@@ -140,7 +140,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music file repeatation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6v-YR-exE">
-                                <rect key="frame" x="9" y="135" width="164" height="20"/>
+                                <rect key="frame" x="9" y="155" width="164" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -154,13 +154,13 @@
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gM-R9-A9g">
-                                <rect key="frame" x="9" y="87" width="44" height="21"/>
+                                <rect key="frame" x="9" y="107" width="44" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-Ed-u8z">
-                                <rect key="frame" x="227" y="77" width="77" height="32"/>
+                                <rect key="frame" x="227" y="97" width="77" height="32"/>
                                 <segments>
                                     <segment title="On"/>
                                     <segment title="Off"/>
@@ -170,7 +170,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tiw-de-H7b">
-                                <rect key="frame" x="227" y="130" width="77" height="32"/>
+                                <rect key="frame" x="227" y="150" width="77" height="32"/>
                                 <segments>
                                     <segment title="On"/>
                                     <segment title="Off"/>
@@ -190,18 +190,19 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8gV-Sh-n8k">
                                 <rect key="frame" x="0.0" y="479" width="320" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="backgroundColor" systemColor="lightTextColor"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="General: This is application to show you on the guidelines on Chiness chess playing">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="bc7-PP-f7N"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="tiw-de-H7b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="x6v-YR-exE" secondAttribute="trailing" constant="8" symbolic="YES" id="1qx-vw-5kI"/>
@@ -216,7 +217,6 @@
                             <constraint firstItem="lUN-Ed-u8z" firstAttribute="trailing" secondItem="hDV-YM-yXn" secondAttribute="trailingMargin" id="amp-ga-hMc"/>
                             <constraint firstItem="lUN-Ed-u8z" firstAttribute="bottom" secondItem="2gM-R9-A9g" secondAttribute="bottom" id="zcK-QV-cCF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bc7-PP-f7N"/>
                     </view>
                     <connections>
                         <outlet property="AudioSettingSegCtl" destination="lUN-Ed-u8z" id="Axm-8F-nxm"/>
@@ -235,7 +235,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1b9-0V-eQO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1p4-4A-xdm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -252,10 +252,10 @@
             <objects>
                 <viewController storyboardIdentifier="SubGameBoard" title="Game board" id="Ygz-Wc-uDG" customClass="SubGameBoardViewController" customModule="MaiHoaPho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Blg-46-8Nb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="430"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="410"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hxg-ia-IVf"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oou-Of-Lj1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -272,7 +272,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="GameTitle" id="N7v-uB-A9p">
-                                <rect key="frame" x="0.0" y="28" width="320" height="43.5"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N7v-uB-A9p" id="PGn-qC-fyR">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -280,7 +280,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="GamePart" id="vBw-iu-k3Y">
-                                <rect key="frame" x="0.0" y="71.5" width="320" height="43.5"/>
+                                <rect key="frame" x="0.0" y="93.5" width="320" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vBw-iu-k3Y" id="4yU-wQ-H3u">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
@@ -302,5 +302,8 @@
     <resources>
         <image name="Default" width="320" height="460"/>
         <image name="MaiHoaPho" width="360" height="108"/>
+        <systemColor name="lightTextColor">
+            <color white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

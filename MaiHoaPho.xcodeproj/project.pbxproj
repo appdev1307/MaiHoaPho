@@ -11,9 +11,6 @@
 		0E690C882277FC3500CEBA1C /* phao_dau_chong_phan_cung_ma in Resources */ = {isa = PBXBuildFile; fileRef = 0E690C872277FC3500CEBA1C /* phao_dau_chong_phan_cung_ma */; };
 		0EC4FA7C2279E17800BD3051 /* phao_dau_hoanh_xe_that_lo_ma_chong_binh_phong_ma in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4FA7B2279E17800BD3051 /* phao_dau_hoanh_xe_that_lo_ma_chong_binh_phong_ma */; };
 		0EE5A6BD23521B0B00C73F92 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5A6BC23521B0B00C73F92 /* Readme */; };
-		28439B62965F67A4C1020758 /* Pods_MaiHoaPhoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A50BD42CC2DEC0B50964FA0 /* Pods_MaiHoaPhoUITests.framework */; };
-		64688974011FD83AA0F5B2B5 /* Pods_MaiHoaPhoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FBE2269EBD925B8F278652 /* Pods_MaiHoaPhoTests.framework */; };
-		9820227C3FF1D0529899783C /* Pods_MaiHoaPho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73745708F73E2836F1FE269E /* Pods_MaiHoaPho.framework */; };
 		C604114621DA64600080C40E /* khoi_binh_cuc_chong_binh_phao_no_tot in Resources */ = {isa = PBXBuildFile; fileRef = C604114521DA645F0080C40E /* khoi_binh_cuc_chong_binh_phao_no_tot */; };
 		C604114821DB0D080080C40E /* trung_phao_hoanh_xe_that_lo_ma_chong_binh_phong_ma_huu_phao_qua_ha in Resources */ = {isa = PBXBuildFile; fileRef = C604114721DB0D080080C40E /* trung_phao_hoanh_xe_that_lo_ma_chong_binh_phong_ma_huu_phao_qua_ha */; };
 		C604114A21DB182B0080C40E /* phao_dau_chong_binh_phong_ma_song_phao_qua_ha in Resources */ = {isa = PBXBuildFile; fileRef = C604114921DB182B0080C40E /* phao_dau_chong_binh_phong_ma_song_phao_qua_ha */; };
@@ -438,14 +435,6 @@
 		0E690C872277FC3500CEBA1C /* phao_dau_chong_phan_cung_ma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phao_dau_chong_phan_cung_ma; sourceTree = "<group>"; };
 		0EC4FA7B2279E17800BD3051 /* phao_dau_hoanh_xe_that_lo_ma_chong_binh_phong_ma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phao_dau_hoanh_xe_that_lo_ma_chong_binh_phong_ma; sourceTree = "<group>"; };
 		0EE5A6BC23521B0B00C73F92 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
-		73745708F73E2836F1FE269E /* Pods_MaiHoaPho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaiHoaPho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A50BD42CC2DEC0B50964FA0 /* Pods_MaiHoaPhoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaiHoaPhoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F970DCA110A7D75B789BA70 /* Pods-MaiHoaPhoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPhoUITests.release.xcconfig"; path = "Target Support Files/Pods-MaiHoaPhoUITests/Pods-MaiHoaPhoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9681F78D5D7753E4A560456D /* Pods-MaiHoaPho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPho.release.xcconfig"; path = "Target Support Files/Pods-MaiHoaPho/Pods-MaiHoaPho.release.xcconfig"; sourceTree = "<group>"; };
-		9980AE9FA7EFE7FDE0FCBCFC /* Pods-MaiHoaPhoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPhoTests.release.xcconfig"; path = "Target Support Files/Pods-MaiHoaPhoTests/Pods-MaiHoaPhoTests.release.xcconfig"; sourceTree = "<group>"; };
-		A7FBE2269EBD925B8F278652 /* Pods_MaiHoaPhoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaiHoaPhoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA48863497CAF5DB24753DB4 /* Pods-MaiHoaPho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPho.debug.xcconfig"; path = "Target Support Files/Pods-MaiHoaPho/Pods-MaiHoaPho.debug.xcconfig"; sourceTree = "<group>"; };
-		BBB0D340FAD2F9A613095026 /* Pods-MaiHoaPhoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPhoTests.debug.xcconfig"; path = "Target Support Files/Pods-MaiHoaPhoTests/Pods-MaiHoaPhoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C604114521DA645F0080C40E /* khoi_binh_cuc_chong_binh_phao_no_tot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = khoi_binh_cuc_chong_binh_phao_no_tot; sourceTree = "<group>"; };
 		C604114721DB0D080080C40E /* trung_phao_hoanh_xe_that_lo_ma_chong_binh_phong_ma_huu_phao_qua_ha */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trung_phao_hoanh_xe_that_lo_ma_chong_binh_phong_ma_huu_phao_qua_ha; sourceTree = "<group>"; };
 		C604114921DB182B0080C40E /* phao_dau_chong_binh_phong_ma_song_phao_qua_ha */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phao_dau_chong_binh_phong_ma_song_phao_qua_ha; sourceTree = "<group>"; };
@@ -852,7 +841,6 @@
 		C6FE1C77219A6842000AC781 /* cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p3; sourceTree = "<group>"; };
 		C6FE1C79219A6956000AC781 /* cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p4; sourceTree = "<group>"; };
 		C6FE1C7B219A6A51000AC781 /* cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cong_truc_xa_thu_ha_tai_bo_si_giac_phao_p5; sourceTree = "<group>"; };
-		E03A416C47AAEC31FB3BEFF7 /* Pods-MaiHoaPhoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaiHoaPhoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MaiHoaPhoUITests/Pods-MaiHoaPhoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -860,7 +848,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9820227C3FF1D0529899783C /* Pods_MaiHoaPho.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,7 +855,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64688974011FD83AA0F5B2B5 /* Pods_MaiHoaPhoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -876,7 +862,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28439B62965F67A4C1020758 /* Pods_MaiHoaPhoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,24 +885,8 @@
 		6E8617D14EED7609A696873C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA48863497CAF5DB24753DB4 /* Pods-MaiHoaPho.debug.xcconfig */,
-				9681F78D5D7753E4A560456D /* Pods-MaiHoaPho.release.xcconfig */,
-				BBB0D340FAD2F9A613095026 /* Pods-MaiHoaPhoTests.debug.xcconfig */,
-				9980AE9FA7EFE7FDE0FCBCFC /* Pods-MaiHoaPhoTests.release.xcconfig */,
-				E03A416C47AAEC31FB3BEFF7 /* Pods-MaiHoaPhoUITests.debug.xcconfig */,
-				7F970DCA110A7D75B789BA70 /* Pods-MaiHoaPhoUITests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		A306CEFDE081250BA421FA62 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73745708F73E2836F1FE269E /* Pods_MaiHoaPho.framework */,
-				A7FBE2269EBD925B8F278652 /* Pods_MaiHoaPhoTests.framework */,
-				7A50BD42CC2DEC0B50964FA0 /* Pods_MaiHoaPhoUITests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C6132802214E23340079F65F /* File */ = {
@@ -1368,7 +1337,6 @@
 				C63DC4B22136CE9600776DEA /* MaiHoaPhoUITests */,
 				C63DC48E2136CE9600776DEA /* Products */,
 				6E8617D14EED7609A696873C /* Pods */,
-				A306CEFDE081250BA421FA62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1427,11 +1395,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C63DC4B82136CE9600776DEA /* Build configuration list for PBXNativeTarget "MaiHoaPho" */;
 			buildPhases = (
-				5374417501A0023A7FFF5E3B /* [CP] Check Pods Manifest.lock */,
 				C63DC4892136CE9600776DEA /* Sources */,
 				C63DC48A2136CE9600776DEA /* Frameworks */,
 				C63DC48B2136CE9600776DEA /* Resources */,
-				B9E4987E88DD5EE5CDE7C207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1446,7 +1412,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C63DC4BB2136CE9600776DEA /* Build configuration list for PBXNativeTarget "MaiHoaPhoTests" */;
 			buildPhases = (
-				772B2ACB6F880EF856C1BC73 /* [CP] Check Pods Manifest.lock */,
 				C63DC4A02136CE9600776DEA /* Sources */,
 				C63DC4A12136CE9600776DEA /* Frameworks */,
 				C63DC4A22136CE9600776DEA /* Resources */,
@@ -1465,7 +1430,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C63DC4BE2136CE9600776DEA /* Build configuration list for PBXNativeTarget "MaiHoaPhoUITests" */;
 			buildPhases = (
-				171D651DF361FFB9E39E2EC7 /* [CP] Check Pods Manifest.lock */,
 				C63DC4AB2136CE9600776DEA /* Sources */,
 				C63DC4AC2136CE9600776DEA /* Frameworks */,
 				C63DC4AD2136CE9600776DEA /* Resources */,
@@ -1937,87 +1901,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		171D651DF361FFB9E39E2EC7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaiHoaPhoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5374417501A0023A7FFF5E3B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaiHoaPho-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		772B2ACB6F880EF856C1BC73 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MaiHoaPhoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B9E4987E88DD5EE5CDE7C207 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaiHoaPho/Pods-MaiHoaPho-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
-				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaiHoaPho/Pods-MaiHoaPho-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		C63DC4892136CE9600776DEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -2209,7 +2092,6 @@
 		};
 		C63DC4B92136CE9600776DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA48863497CAF5DB24753DB4 /* Pods-MaiHoaPho.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2231,7 +2113,6 @@
 		};
 		C63DC4BA2136CE9600776DEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9681F78D5D7753E4A560456D /* Pods-MaiHoaPho.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2252,7 +2133,6 @@
 		};
 		C63DC4BC2136CE9600776DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB0D340FAD2F9A613095026 /* Pods-MaiHoaPhoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2273,7 +2153,6 @@
 		};
 		C63DC4BD2136CE9600776DEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9980AE9FA7EFE7FDE0FCBCFC /* Pods-MaiHoaPhoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2293,7 +2172,6 @@
 		};
 		C63DC4BF2136CE9600776DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E03A416C47AAEC31FB3BEFF7 /* Pods-MaiHoaPhoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2312,7 +2190,6 @@
 		};
 		C63DC4C02136CE9600776DEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F970DCA110A7D75B789BA70 /* Pods-MaiHoaPhoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

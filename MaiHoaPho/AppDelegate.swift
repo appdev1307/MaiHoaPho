@@ -10,10 +10,10 @@ import UIKit
 import CoreData
 // import GoogleMobileAds
 import AVFoundation
-import Firebase
+//import Firebase
 import os.log
 
-import MoPub
+//import MoPub
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -41,11 +41,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //GADMobileAds.sharedInstance().start(completionHandler: nil)
         
         // MARK: - MOPUB
-        let sdkConfig = MPMoPubConfiguration(adUnitIdForAppInitialization: "c00a041766ee43b09e6c5eb697166d7b")
+        /*let sdkConfig = MPMoPubConfiguration(adUnitIdForAppInitialization: "c00a041766ee43b09e6c5eb697166d7b")
         sdkConfig.loggingLevel = .info
         MoPub.sharedInstance().initializeSdk(with: sdkConfig) {
             NSLog("SDK initialization complete")
-        }
+        }*/
         
         return true
     }
