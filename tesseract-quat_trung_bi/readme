@@ -1,0 +1,20 @@
+- Check version of python by using python -V command
+
+- Prerequisite
+
+brew install poppler
+pip install pillow
+
+
+- run by using the command below:
+
+python3 ./quat_trung_bi.py
+
+this is python 3
+
+- reference: 
+https://www.geeksforgeeks.org/python-reading-contents-of-pdf-using-ocr-optical-character-recognition/
+
+- Output: it is not good output. We could not read any words generated
+
+- The next step: Give more training on Tessearact installed in the PC
